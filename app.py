@@ -7,7 +7,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-app.config.from_pyfile('config.py')
+app.config.from_pyfile('dev-config.py')
 
 # CREATE CLIENT SECRET JSON
 client_secret_json = {
